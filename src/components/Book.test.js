@@ -10,9 +10,5 @@ describe("Book component", () => {
         expect(bookList).toBeDefined()
     })
 
-    it("fetches a list of books from server", () => {
-        const bookWrapper = shallow(<Book />)
-        
-    })
 
 })
